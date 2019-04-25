@@ -8,7 +8,7 @@
   "license": "MIT",
   "private": false,
   "bin": {
-    "tiny-pm": "dist/cli.js"
+    "moia": "dist/cli.js"
   },
   "files": [
     "dist"
