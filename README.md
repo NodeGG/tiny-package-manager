@@ -1,4 +1,4 @@
-# Tiny Package Manager
+# Moia Package Manager
 
 > A very very simple demo and guide for explaining package manager.
 
@@ -41,21 +41,23 @@ just install it globally:
 Via Yarn:
 
 ```
-$ yarn global add tiny-package-manager
+$ yarn global add moia
 ```
 
 Via npm:
 
 ```
-$ npm i -g tiny-package-manager
+$ npm i -g moia
 ```
 
 Then just go to a directory which contains valid `package.json` and run:
 
 ```
-$ tiny-pm
+$ moia
 ```
 
 ## License
 
-MIT License (c) 2018-present [Pig Fang](https://gplane.win/)
+MIT License (c) 2019-present 
+
+Credit to [Pig Fang](https://github.com/g-plane/tiny-package-manager)

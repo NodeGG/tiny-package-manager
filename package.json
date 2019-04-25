@@ -1,10 +1,10 @@
 {
-  "name": "tiny-package-manager",
-  "version": "1.1.0",
-  "description": "The tiny package manager.",
+  "name": "moia",
+  "version": "0.0.0",
+  "description": "The Moia package manager.",
   "main": "dist/index.js",
-  "repository": "g-plane/tiny-package-manager",
-  "author": "Pig Fang <g-plane@hotmail.com>",
+  "repository": "NodeGG/Moia",
+  "author": "Node GG <nodeggofficial@gmail.com>",
   "license": "MIT",
   "private": false,
   "bin": {

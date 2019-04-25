@@ -26,7 +26,7 @@ import * as lock from './lock'
  *
  * Good luck and let's start!   :)
  *
- * This is just the main file of the whole tiny package manager,
+ * This is just the main file of the whole moia package manager,
  * but not all the logic,
  * because I split them into different modules and files for better management.
  */

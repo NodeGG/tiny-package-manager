@@ -96,7 +96,7 @@ export async function writeLock() {
    * Sort it makes useful for git diff.
    */
   await fs.writeFile(
-    './tiny-pm.yml',
+    './moia.yml',
     yaml.safeDump(utils.sortKeys(newLock), { noRefs: true })
   )
 }
@@ -106,10 +106,10 @@ export async function writeLock() {
  * Skip it if we cannot find the lock file.
  */
 export async function readLock() {
-  if (await fs.pathExists('./tiny-pm.yml')) {
+  if (await fs.pathExists('./moia.yml')) {
     Object.assign(
       oldLock,
-      yaml.safeLoad(await fs.readFile('./tiny-pm.yml', 'utf-8'))
+      yaml.safeLoad(await fs.readFile('./moia.yml', 'utf-8'))
     )
   }
 }
