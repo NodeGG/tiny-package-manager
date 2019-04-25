@@ -8,7 +8,7 @@ import pm from '.'
  */
 
 yargs
-  .usage('tiny-pm <command> [args]')
+  .usage('moia <command> [args]')
   .version()
   .alias('v', 'version')
   .help()

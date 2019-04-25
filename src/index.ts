@@ -26,7 +26,7 @@ import * as lock from './lock'
  *
  * Good luck and let's start!   :)
  *
- * This is just the main file of the whole tiny package manager,
+ * This is just the main file of the whole moia package manager,
  * but not all the logic,
  * because I split them into different modules and files for better management.
  */
@@ -37,7 +37,7 @@ export default async function (args: yargs.Arguments) {
   const root = await fs.readJson(jsonPath)
 
   /*
-   * If we are adding new packages by running `tiny-pm install <packageName>`,
+   * If we are adding new packages by running `moia install <packageName>`,
    * collect them through CLI arguments.
    * This purpose is to behaves like `npm i <packageName>` or `yarn add`.
    */
